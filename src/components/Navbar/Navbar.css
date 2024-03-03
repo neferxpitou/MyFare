@@ -1,0 +1,20 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: var(--primary-color); /* Example background color */
+	color: var(--white);
+}
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navbar-profile img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%; /* Makes the image round */
+	object-fit: cover;
+}
