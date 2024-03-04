@@ -1,0 +1,8 @@
+.headerclass {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 40px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}

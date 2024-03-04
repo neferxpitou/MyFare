@@ -4,7 +4,7 @@ const AddSubscriptions = () => {
 	return (
 		<div>
 			<Navbar />
-			<h1>Add Subscriptions</h1>
+			<h1 className="headerclass">Add Subscriptions</h1>
 		</div>
 	);
 };
