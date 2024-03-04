@@ -55,7 +55,7 @@ const CreateAccount = () => {
 					height: '100%',
 				}}
 			>
-				<h2>Create Account</h2>
+				<h2 style={{marginBottom:40}}>Create Account</h2>
 				<input
 					type="text"
 					placeholder="Email"
