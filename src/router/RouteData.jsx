@@ -1,12 +1,13 @@
 import { Navigate } from 'react-router-dom';
-import Home from '../pages/Home/Home.jsx';
-import Profile from '../pages/Profile/Profile.jsx';
-import Tickets from '../pages/Tickets/Tickets.jsx';
-import Checkout from '../pages/Checkout/Checkout.jsx';
-import History from '../pages/History/History.jsx';
-import ManageSubsciptions from '../pages/ManageSubscriptions/ManageSubscriptions.jsx';
-import AddSubscriptions from '../pages/AddSubsciptions/AddSubscriptions.jsx';
-import Login from '../pages/Login/Login.jsx';
+import Home from '../pages/Home.jsx';
+import Profile from '../pages/Profile.jsx';
+import Tickets from '../pages/Tickets.jsx';
+import Checkout from '../pages/Checkout.jsx';
+import History from '../pages/History.jsx';
+import ManageSubsciptions from '../pages/ManageSubscriptions.jsx';
+import AddSubscriptions from '../pages/AddSubscriptions.jsx';
+import Login from '../pages/Login.jsx';
+import CreateAccount from '../pages/CreateAccount.jsx';
 
 export const RouterData = [
 	{
@@ -40,6 +41,10 @@ export const RouterData = [
 	{
 		path: '/add-subscriptions',
 		element: AddSubscriptions,
+	},
+	{
+		path: '/create-account',
+		element: CreateAccount,
 	},
 	{
 		path: '*',
