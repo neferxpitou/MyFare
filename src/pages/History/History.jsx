@@ -1,4 +1,5 @@
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
+import './History.css';
 const History = () => {
 	return (
 		<div>

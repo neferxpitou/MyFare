@@ -1,4 +1,5 @@
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
+import './AddSubscriptions.css';
 const AddSubscriptions = () => {
 	return (
 		<div>
