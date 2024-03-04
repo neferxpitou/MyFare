@@ -1,4 +1,5 @@
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
+import './ManageSubscriptions.css';
 const ManageSubsciptions = () => {
 	return (
 		<div>
