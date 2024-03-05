@@ -7,6 +7,7 @@ import History from '../pages/History/History.jsx';
 import ManageSubsciptions from '../pages/ManageSubscriptions/ManageSubscriptions.jsx';
 import AddSubscriptions from '../pages/AddSubsciptions/AddSubscriptions.jsx';
 import Login from '../pages/Login/Login.jsx';
+import CreateAccount from '../pages/CreateAccount/CreateAccount.jsx';
 
 export const RouterData = [
 	{
@@ -40,6 +41,10 @@ export const RouterData = [
 	{
 		path: '/add-subscriptions',
 		element: AddSubscriptions,
+	},
+	{
+		path: '/create-account',
+		element: CreateAccount,
 	},
 	{
 		path: '*',
