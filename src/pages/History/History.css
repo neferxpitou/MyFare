@@ -1,0 +1,53 @@
+.page {
+	overflow-y: hidden;
+	text-align: center;
+}
+
+.content {
+	height: 500px;
+	margin: 10px 5px 5px 10px;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.transaction {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	color: red;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+}
+
+summary {
+	text-align: left;
+}
+
+.expand {
+	height: 300px;
+}
+
+h1 {
+	color: red;
+}
+
+button {
+	width: 80%;
+	color: red;
+	background-color: white;
+	border-style: ridge;
+	border-color: white;
+	border-radius: 10px;
+}
+
+p {
+	color: inherit;
+	background-color: inherit;
+	border-radius: 80px;
+	text-align: center;
+}
