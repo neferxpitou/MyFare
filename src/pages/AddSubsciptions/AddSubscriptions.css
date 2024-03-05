@@ -1,0 +1,29 @@
+.headerclass {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 40px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.subtypeclass{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 16px;
+	font-weight: bold;
+}
+.checkoutbutton{
+    display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 40px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.backbutton {
+    display: flex;
+	justify-content: space-between;
+    font-size: 16px;
+	font-weight: bold;
+}

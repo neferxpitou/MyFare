@@ -1,0 +1,28 @@
+.headerclass {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 40px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.buttonclass {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 40px 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.backbutton {
+    display: flex;
+	justify-content: space-between;
+    font-size: 16px;
+	font-weight: bold;
+}
+.centerclass {
+    display: flex;
+	text-align: center;
+	justify-content: center;
+    padding: 20px 20px;
+}
