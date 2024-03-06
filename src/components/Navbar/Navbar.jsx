@@ -1,13 +1,14 @@
 import './Navbar.css';
+import { AccountCircleSharp } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<div className="navbar-brand">Transit</div>
+			<div className="navbar-brand">Calgary Transit</div>
 			<div className="navbar-profile">
 				<Link to="/profile">
-					<img src="userIcon.png" alt="Profile" />
+					<AccountCircleSharp />
 				</Link>
 			</div>
 		</nav>

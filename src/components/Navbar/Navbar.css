@@ -8,13 +8,11 @@
 }
 
 .navbar-brand {
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: bold;
 }
 
-.navbar-profile img {
-	width: 32px;
-	height: 32px;
-	border-radius: 50%; /* Makes the image round */
-	object-fit: cover;
+.navbar-profile .MuiSvgIcon-root {
+	color: var(--dark-red);
+	font-size: 45px;
 }

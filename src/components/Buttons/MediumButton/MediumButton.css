@@ -1,0 +1,25 @@
+.btn-md {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 60px;
+	margin: 40px 8px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+	background-color: var(--secondary-color);
+	color: var(--light-blue);
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow:
+		0px 10px 20px rgba(0, 0, 0, 0.19),
+		0px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-md:active {
+	transform: scale(0.97);
+}

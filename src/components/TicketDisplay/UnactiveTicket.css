@@ -1,0 +1,27 @@
+.unactive-ticket {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	background-color: var(--light-green);
+	box-shadow:
+		0px 10px 20px rgba(0, 0, 0, 0.19),
+		0px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.ticket-type {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	font-weight: 700;
+	background-color: var(--orange);
+	width: 230px;
+	height: 130px;
+	border-radius: 5px;
+	color: var(--white);
+}
