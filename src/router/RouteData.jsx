@@ -5,7 +5,6 @@ import Tickets from '../pages/Tickets/Tickets.jsx';
 import Checkout from '../pages/Checkout/Checkout.jsx';
 import History from '../pages/History/History.jsx';
 import ManageSubsciptions from '../pages/ManageSubscriptions/ManageSubscriptions.jsx';
-import AddSubscriptions from '../pages/AddSubsciptions/AddSubscriptions.jsx';
 import Login from '../pages/Login/Login.jsx';
 import CreateAccount from '../pages/CreateAccount/CreateAccount.jsx';
 import ContactUs from '../pages/ContactUs/ContactUs.jsx';
@@ -38,10 +37,6 @@ export const RouterData = [
 	{
 		path: '/manage-subscriptions',
 		element: ManageSubsciptions,
-	},
-	{
-		path: '/add-subscriptions',
-		element: AddSubscriptions,
 	},
 	{
 		path: '/create-account',
