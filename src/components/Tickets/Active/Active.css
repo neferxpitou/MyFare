@@ -1,0 +1,44 @@
+.ticket-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	font-weight: 700;
+	background-color: var(--orange);
+	width: 240px;
+	height: 110px;
+	border-radius: 5px;
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ticket-button:active {
+	transform: scale(0.97);
+}
+
+.activate-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: var(--green);
+	margin-top: 20px;
+	width: 240px;
+	height: 40px;
+	border-radius: 5px;
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activate-button:active {
+	transform: scale(0.97);
+}
