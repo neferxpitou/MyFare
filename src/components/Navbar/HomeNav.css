@@ -1,4 +1,4 @@
-.navbar {
+.home-navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -7,12 +7,13 @@
 	color: var(--white);
 }
 
-.navbar-brand {
+.home-navbar-brand {
+	margin-left: 10px;
 	font-size: 26px;
 	font-weight: bold;
 }
 
-.navbar-profile .MuiSvgIcon-root {
+.home-navbar-profile .MuiSvgIcon-root {
 	color: var(--dark-red);
 	font-size: 45px;
 }
