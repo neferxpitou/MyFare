@@ -1,0 +1,134 @@
+.login-container {
+	width: 360px;
+	height: 800px;
+	background-color: var(--grey);
+}
+
+.app-title {
+	font-size: 50px;
+	font-weight: bold;
+	color: var(--primary-color);
+	padding-top: 160px;
+	padding-bottom: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-title .MuiSvgIcon-root {
+	margin-right: 15px;
+	font-size: 50px;
+}
+.login-input-fields {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-email-input,
+.login-password-input {
+	width: 280px;
+	padding: 10px 15px;
+	margin: 8px 0;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	border: 2px solid #ccc;
+}
+
+.forgot-password {
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 41px;
+}
+
+.forgot-password a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.login-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.login-button {
+	width: 280px;
+	height: 45px;
+	font-size: 21px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background-color: #004085;
+	color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-button:active {
+	transform: scale(0.97);
+}
+
+.divider {
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #000;
+	position: relative;
+}
+
+.divider::before,
+.divider::after {
+	content: '';
+	background-color: black;
+	height: 2px;
+	width: 23%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.divider::before {
+	left: 9%;
+}
+
+.divider::after {
+	right: 9%;
+}
+
+.create-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.create-button {
+	width: 280px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background-color: rgb(150, 150, 150);
+	color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.create-button:active {
+	transform: scale(0.97);
+}
