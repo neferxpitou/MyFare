@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# MyFare App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MyFare is a mobile application designed to streamline the process of purchasing and managing public transit tickets and passes. This intuitive platform allows users to select, purchase, and activate tickets directly from their device, offering convenience and efficiency to daily commuters and occasional travelers alike.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Sign up, log in, and log out functionalities to manage user sessions.
+- **Ticket Purchase**: Users can purchase various types of transit tickets and passes, including single tickets, day passes, and monthly passes for both youth and adults.
+- **Ticket Management**: Activate tickets before use and view all purchased tickets, including active and past tickets.
+- **Subscription Management**: Manage monthly pass subscriptions, allowing users to view active subscriptions and cancel them as needed.
+- **Credit Card Management**: Add and manage credit card information for easy ticket purchase.
+- **Profile Management**: Update email and password details directly from the user profile.
+- **Transaction History**: View a detailed history of all ticket purchases and activations.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ensure you have the following installed:
 
-### `npm test`
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Unzip the MyFare.zip file, and make sure you are in the correct directory ```/MyFare``` in either your terminal or code editor/IDE:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the required dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the application:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. The application will run on http://localhost:3000 by default. Make sure you are using Google Chrome and you are not using Incognito Mode. View in iPhone 12 Pro dimensions for a better experience (can be set through Chrome DevTools).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Creating an Account**: Navigate to the "Create Account" page from the login screen to sign up with your email and password.
+- **Logging In**: Use your registered email and password to log in and access the application features.
+- **Purchasing Tickets**: Select the "Purchase Tickets" button to view available ticket options. Choose your desired ticket, specify the quantity, and proceed to checkout using either Apple Pay or a saved credit card.
+- **Activating Tickets**: Navigate to the home screen to view purchased tickets. Activate a ticket before boarding by selecting "Tap to Activate."
+- **Viewing Transaction History**: Access your transaction history to review past ticket purchases and activations.
+- **Managing Subscriptions**: View and cancel active monthly pass subscriptions from the "Manage Subscriptions" section.
+- **Updating Profile Information**: Change your email or password from the profile page. Successful updates will prompt a confirmation and redirection to the home screen.
+- **Logging Out**: Sign out of the application via the profile page to securely end your session.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployed Version
 
-## Learn More
+You can access the deployed version of MyFare at [myfare-group3.netlify.app](https://myfare-group3.netlify.app).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This version allows you to explore all the features of the app without needing to run it locally. Feel free to create an account, log in, purchase tickets, manage subscriptions, and more to see the full capabilities of MyFare.
