@@ -1,8 +1,9 @@
 import './ArrowButton.css';
 import { ArrowLeftSharp } from '@mui/icons-material';
-const ArrowButtonLeft = () => {
+
+const ArrowButtonLeft = ({ onClick }) => {
 	return (
-		<button className="arrow-button">
+		<button className="arrow-button" onClick={onClick}>
 			<ArrowLeftSharp />
 		</button>
 	);
