@@ -8,9 +8,9 @@
 }
 
 .history-title {
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: bold;
-	color: var(--primary-color);
+	color: #333333;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -44,7 +44,7 @@
 }
 
 .transaction-item {
-	width: 270px;
+	width: 290px;
 	border-radius: 5px;
 	background-color: var(--light-blue);
 	margin-top: 10px;
@@ -53,6 +53,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: all 0.3s ease;
 	cursor: pointer;
+	font-size: 14.5px;
 }
 
 .transaction-item:active {
