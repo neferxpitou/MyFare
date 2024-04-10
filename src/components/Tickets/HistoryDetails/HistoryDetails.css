@@ -1,0 +1,76 @@
+.history-details-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	background-color: #f7f7f7;
+}
+
+.history-details-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: #333333;
+}
+
+.back-button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.transaction-details-content {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 20px 0;
+	color: #333;
+	max-width: 320px;
+	margin: auto;
+}
+
+.detail-item {
+	margin-bottom: 20px;
+}
+
+.detail-title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.detail-value {
+	margin-bottom: 5px;
+}
+
+.time-left {
+	font-size: 14px;
+	background-color: #e0e0e0;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.details-divider {
+	border: none;
+	height: 1px;
+	background-color: #ddd;
+	margin: 20px 0;
+}
+
+.qr-code-container {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.qr-code {
+	width: 150px;
+	height: 150px;
+}
