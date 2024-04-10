@@ -147,13 +147,13 @@ table {
 	--light-blue: rgb(212, 244, 255);
 	--orange: rgb(255, 165, 0);
 	--dark-red: rgb(100, 0, 0);
-	--primary-color: #e5484d; /* Example primary color */
-	--secondary-color: #3e63dd; /* Example secondary color */
+	--primary-color: #e5484d;
+	--secondary-color: #3e63dd;
 }
 
 /* Backboard behind the phone display */
 html {
-	background-color: var(--grey); /* Light Grey For Background */
+	background-color: var(--grey);
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
@@ -171,10 +171,10 @@ body {
 	width: 360px;
 	height: 800px;
 	border-radius: 10px;
-	background-color: var(--white); /* White Background */
-	color: var(--black); /* Black Text */
+	background-color: var(--white);
+	color: var(--black);
 	overflow-x: hidden;
-	box-sizing: border-box; /* Ensures padding doesn't add to the width/height */
+	box-sizing: border-box;
 }
 
 header {
