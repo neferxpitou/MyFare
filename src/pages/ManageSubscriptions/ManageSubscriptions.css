@@ -1,0 +1,75 @@
+.manage-subscriptions-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: var(--black);
+}
+
+.subscriptions-list {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.subscription-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #e6e6e6;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.subscription-icon {
+	color: black;
+	margin-right: 15px;
+	font-size: 24px;
+}
+
+.subscription-details h2 {
+	font-size: 18px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.subscription-details p {
+	font-size: 16px;
+	color: #666;
+	margin: 5px 0;
+}
+
+.subscription-price {
+	color: #28a745;
+	font-weight: bold;
+}
+
+.cancel-subscription-button {
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	padding: 5px 9px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.no-subscriptions-message {
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	color: #666;
+}
