@@ -12,6 +12,8 @@
 	margin-left: 24px;
 	font-size: 26px;
 	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
 }
 
 .logout-button {
@@ -29,6 +31,6 @@
 	cursor: pointer;
 	transition: all 0.3s ease;
 	background-color: rgb(221, 221, 221);
-	color: var(--primary-color);
+	color: #333333;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

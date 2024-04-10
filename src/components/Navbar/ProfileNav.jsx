@@ -1,13 +1,18 @@
 import './ProfileNav.css';
 import BackButton from '../Buttons/BackButton/BackButton';
+import { Link } from 'react-router-dom';
 
-const ProfileNav = () => {
+const ProfileNav = ({ openLogoutModal }) => {
 	return (
 		<nav className="profile-navbar">
 			<BackButton />
-			<div className="profile-navbar-brand">MyFare</div>
+			<Link to="/home" className="profile-navbar-brand">
+				MyFare
+			</Link>
 			<div className="profile-navbar-logout">
-				<button className="logout-button">LOGOUT</button>
+				<button className="logout-button" onClick={openLogoutModal}>
+					LOGOUT
+				</button>
 			</div>
 		</nav>
 	);
