@@ -1,9 +1,9 @@
 import AppleIcon from '@mui/icons-material/Apple';
 import './ApplePay.css';
 
-const ApplePay = () => {
+const ApplePay = ({ onClick }) => {
 	return (
-		<button className="applePayButton">
+		<button className="applePayButton" onClick={onClick}>
 			<AppleIcon style={{ verticalAlign: 'middle' }} /> Buy with Apple Pay
 		</button>
 	);
