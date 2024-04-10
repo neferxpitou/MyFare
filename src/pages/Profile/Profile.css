@@ -1,0 +1,132 @@
+.profile-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.profile-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: var(--primary-color);
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.update-email {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.update-password {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.update-title {
+	padding-bottom: 10px;
+}
+
+.profile-email-input,
+.profile-password-input {
+	width: 290px;
+	padding: 8px 15px;
+	margin: 7px 0;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	border: 2px solid #ccc;
+}
+
+.save-email-button,
+.save-password-button {
+	width: 100%;
+	padding: 8px;
+	background-color: var(--green);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	margin-top: 10px;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.save-email-button:disabled {
+	background-color: #cccccc;
+	color: #666666;
+	cursor: not-allowed;
+	box-shadow: none;
+}
+
+.save-password-button:disabled {
+	background-color: #cccccc;
+	color: #666666;
+	cursor: not-allowed;
+	box-shadow: none;
+}
+
+.profile-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 30px;
+	width: 290px;
+	height: 45px;
+	font-size: 18px;
+	border-radius: 5px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background-color: #2a5a8d;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.separate {
+	margin-top: 10px;
+}
+.custom-divider {
+	height: 2px;
+	width: 320px;
+	background-color: #7a7a7a;
+	margin: 30px 0;
+}
+
+.success-popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 100;
+	text-align: center;
+}
+
+.popup-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 50;
+}

@@ -1,0 +1,28 @@
+.increment-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--black);
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 20px;
+	height: 20px;
+	width: 20px;
+	margin: 10px;
+	outline: none;
+	transition: all 0.3s ease;
+	box-shadow:
+		0px 10px 20px rgba(0, 0, 0, 0.19),
+		0px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.increment-button:active {
+	transform: scale(0.97);
+}
+
+.increment-button .MuiSvgIcon-root {
+	color: var(--inset);
+	font-size: 28px;
+}

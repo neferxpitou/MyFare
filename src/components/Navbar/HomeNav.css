@@ -1,0 +1,19 @@
+.home-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 12px;
+	background-color: var(--primary-color);
+	color: var(--white);
+}
+
+.home-navbar-brand {
+	margin-left: 10px;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.home-navbar-profile .MuiSvgIcon-root {
+	color: var(--dark-red);
+	font-size: 45px;
+}

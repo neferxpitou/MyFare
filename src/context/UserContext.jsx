@@ -5,7 +5,6 @@ const UserContext = createContext();
 export const UserContextProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
 
-	// Check local storage for user info on component mount
 	useEffect(() => {
 		const loggedInUser = localStorage.getItem('user');
 		if (loggedInUser) {
@@ -14,12 +13,12 @@ export const UserContextProvider = ({ children }) => {
 	}, []);
 
 	const login = (userData) => {
-		localStorage.setItem('user', JSON.stringify(userData)); // Persist user data in local storage
+		localStorage.setItem('user', JSON.stringify(userData));
 		setUser(userData);
 	};
 
 	const logout = () => {
-		localStorage.removeItem('user'); // Clear user data from local storage
+		localStorage.removeItem('user');
 		setUser(null);
 	};
 
@@ -30,5 +29,4 @@ export const UserContextProvider = ({ children }) => {
 	);
 };
 
-// Custom hook to use the user context
 export const useUser = () => useContext(UserContext);

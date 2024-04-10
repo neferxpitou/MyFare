@@ -133,18 +133,27 @@ table {
 
 /* CSS Global Variables For Styling, Can Be Used Anywhere Ex: background-color: var(--primary-color); */
 :root {
+	font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100%;
 	--white: #ffffff;
 	--black: #000000;
-	--primary-color: #e5484d; /* Example primary color */
-	--secondary-color: #3e63dd; /* Example secondary color */
+	--grey: #f0f2f5;
+	--inset: #e0e0e0;
+	--dark-grey: #575757;
+	--green: rgb(67, 188, 67);
+	--dark-green: rgb(0, 50, 0);
+	--light-green: rgb(221, 239, 224);
+	--light-blue: rgb(212, 244, 255);
+	--orange: rgb(255, 165, 0);
+	--dark-red: rgb(100, 0, 0);
+	--primary-color: #e5484d;
+	--secondary-color: #3e63dd;
 }
 
 /* Backboard behind the phone display */
 html {
-	font-family: 'Open Sans', sans-serif;
-	background-color: #f0f2f5; /* Light Grey For Background */
+	background-color: var(--grey);
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
@@ -156,13 +165,16 @@ html {
 
 /* Make it look like a phone */
 body {
+	box-shadow:
+		0px 10px 20px rgba(0, 0, 0, 0.19),
+		0px 6px 6px rgba(0, 0, 0, 0.23);
 	width: 360px;
 	height: 800px;
 	border-radius: 10px;
-	background-color: var(--white); /* White Background */
-	color: var(--black); /* Black Text */
+	background-color: var(--white);
+	color: var(--black);
 	overflow-x: hidden;
-	box-sizing: border-box; /* Ensures padding doesn't add to the width/height */
+	box-sizing: border-box;
 }
 
 header {
@@ -175,4 +187,8 @@ header {
 	padding: 0 20px;
 	box-sizing: border-box;
 	height: 24px;
+}
+
+button {
+	font-family: 'Poppins', sans-serif;
 }

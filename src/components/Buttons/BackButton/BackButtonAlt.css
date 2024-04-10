@@ -1,0 +1,19 @@
+.back-button-alt {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	border: none;
+	color: #333;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	background-color: transparent;
+}
+
+.back-button-alt .MuiSvgIcon-root {
+	font-size: 30px;
+	color: black;
+}
