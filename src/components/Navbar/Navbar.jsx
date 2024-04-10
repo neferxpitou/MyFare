@@ -7,7 +7,9 @@ const Navbar = () => {
 	return (
 		<nav className="navbar">
 			<BackButton />
-			<div className="navbar-brand">MyFare</div>
+			<Link to="/home" className="navbar-brand">
+				MyFare
+			</Link>
 			<div className="navbar-profile">
 				<Link to="/profile">
 					<AccountCircleSharp />
