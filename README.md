@@ -49,9 +49,3 @@ npm start
 - **Managing Subscriptions**: View and cancel active monthly pass subscriptions from the "Manage Subscriptions" section.
 - **Updating Profile Information**: Change your email or password from the profile page. Successful updates will prompt a confirmation and redirection to the home screen.
 - **Logging Out**: Sign out of the application via the profile page to securely end your session.
-
-## Deployed Version
-
-You can access the deployed version of MyFare at [myfare-group3.netlify.app](https://myfare-group3.netlify.app).
-
-This version allows you to explore all the features of the app without needing to run it locally. Feel free to create an account, log in, purchase tickets, manage subscriptions, and more to see the full capabilities of MyFare.
